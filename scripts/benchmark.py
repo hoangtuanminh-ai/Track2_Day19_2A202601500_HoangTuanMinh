@@ -25,7 +25,7 @@ sys.path.insert(0, str(ROOT))
 
 from app.search import Searcher  # noqa: E402  -- depends on sys.path above
 
-REPS_PER_QUERY = 100   # latency rep count per mode
+REPS_PER_QUERY = 10   # latency rep count per mode (optimized for Windows)
 TOP_K = 10
 RRF_K = 60
 
